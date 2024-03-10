@@ -1,0 +1,21 @@
+.one-house-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.one-house-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    align-items: center;
+    width: 60%;
+}
+.one-house-img{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.house-address{
+    font-size: 1.5rem;
+}

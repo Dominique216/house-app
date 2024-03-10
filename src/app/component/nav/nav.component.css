@@ -1,0 +1,29 @@
+.nav-container{
+    height: 60px;
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: black;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: black 2px solid;
+    padding: 0px 5px;
+}
+
+.nav-link:hover{
+    background-color: darkblue;
+    color:white
+}

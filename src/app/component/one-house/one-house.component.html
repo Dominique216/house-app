@@ -1,0 +1,23 @@
+<div class="one-house-main">
+    <div class="one-house-container">
+        <img class="one-house-img" [src]="house.imgUrl"/>
+        <div class="general-info">
+            <h1>{{formattedPrice}}</h1>
+            <p class="house-address">{{house.address}}</p>
+            <p class="house-des">{{house.description}}</p>
+            <p>Highlights</p>
+            <ul>
+                <li *ngFor="let highlight of house.highlights">
+                    {{highlight}}
+                </li>   
+            </ul>
+            <p>Additional Features</p>
+            <ul>
+                <li *ngFor="let feat of house.additional_details">
+                    {{feat.key}}: {{feat.value}}
+                </li>   
+            </ul>
+        </div>
+    </div>    
+</div>
+

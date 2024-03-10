@@ -1,0 +1,50 @@
+.each-house-container{
+    box-shadow: 0px 17px 22px 9px rgba(75, 75, 75, 0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.each-house-container:hover{
+    transform: scale(1.05);
+    transition: transform .25s ease-in-out;
+}
+
+.each-house-info{
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.each-house-image{
+    border-radius:  10px 10px 0px 0px ;
+}
+
+.each-house-pills{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 5px;
+    font-size: .75rem;
+}
+
+.each-hosue-price{
+    font-weight: 600;   
+}
+
+.each-hosue-address{
+    margin-top: -8px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.home-type{
+    margin-top: -20px; 
+}

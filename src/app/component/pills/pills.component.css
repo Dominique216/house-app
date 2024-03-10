@@ -1,0 +1,15 @@
+.pill-conatiner{
+    border-radius: 50px;
+    width: fit-content;
+    display: flex;
+    height: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.pill-icon{
+    color: black;
+    margin-right: 5px;
+}

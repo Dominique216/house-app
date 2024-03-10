@@ -1,0 +1,16 @@
+<div class="each-house-container" (click)="oneHouseRedirect(house.id)">
+    <img class="each-house-image" src={{house.imgUrl}}/>
+    <div class="each-house-info">
+        <p class="each-hosue-price">{{priceFormatted}}</p>
+        <p class="each-hosue-address">{{house.address}}</p>
+        <div class="home-type">
+           <app-pills backgroundColor="rgb(173, 230, 179)" [text]="house.dwelling_type"></app-pills> 
+        </div>
+        <div class="each-house-pills">
+            <app-pills backgroundColor="lightblue" icon="square_foot" [text]="house.square_feet + ' ft²'"></app-pills>
+            <app-pills backgroundColor="lightblue"  [number]="house.bedrooms < 1 ? 0 : house.bedrooms" icon="bed"></app-pills>
+            <app-pills backgroundColor="lightblue" [number]="house.bathrooms < 1 ? 0 : house.bathrooms" icon="bathtub"></app-pills>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
