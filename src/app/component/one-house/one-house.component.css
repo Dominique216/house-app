@@ -19,3 +19,32 @@
 .house-address{
     font-size: 1.5rem;
 }
+
+li{
+    list-style: none;
+}
+
+.additional-list{
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.highlights-list{
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    /* font-size: 1.5rem; */
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

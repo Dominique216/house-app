@@ -5,18 +5,24 @@
             <h1>{{formattedPrice}}</h1>
             <p class="house-address">{{house.address}}</p>
             <p class="house-des">{{house.description}}</p>
-            <p>Highlights</p>
-            <ul>
-                <li *ngFor="let highlight of house.highlights">
+            <div class="details">
+                <!-- <p>{{house.bedrooms}} Bedrooms</p>
+                <p>{{house.bathrooms}} Bathrooms</p>
+                <p>{{house.square_feet}} ft²</p> -->
+                <app-pills backgroundColor="rgb(173, 230, 179)" icon="square_foot" [text]="house.square_feet + ' ft²'"></app-pills>
+            <app-pills backgroundColor="rgb(173, 230, 179)"  [number]="house.bedrooms < 1 ? 0 : house.bedrooms" icon="bed"></app-pills>
+            <app-pills backgroundColor="rgb(173, 230, 179)" [number]="house.bathrooms < 1 ? 0 : house.bathrooms" icon="bathtub"></app-pills>
+            </div>
+            <h4>Highlights</h4>
+                <div class="highlights-list" *ngFor="let highlight of house.highlights">
+                    <mat-icon>arrow_forward_ios</mat-icon>
                     {{highlight}}
-                </li>   
-            </ul>
-            <p>Additional Features</p>
-            <ul>
-                <li *ngFor="let feat of house.additional_details">
-                    {{feat.key}}: {{feat.value}}
-                </li>   
-            </ul>
+                </div>   
+            <h4>Additional Features</h4>
+            <div class="additional-list" *ngFor="let feat of house.additional_details"> 
+                <mat-icon>{{feat.icon}} </mat-icon>
+                {{feat.key}}: {{feat.value}}
+            </div>  
         </div>
     </div>    
 </div>

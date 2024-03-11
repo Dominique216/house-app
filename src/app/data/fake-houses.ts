@@ -19,27 +19,33 @@ export const HOUSES = [
     "additional_details": [
       {
         "key": "Fireplace",
-        "value": "Gas burning"
+        "value": "Gas burning", 
+        "icon": "fireplace"
       },
       {
         "key": "Laundry",
-        "value": "Inside Laundry Room"
+        "value": "Inside Laundry Room",
+        "icon": "local_laundry_service"
       },
       {
         "key": "Flooring",
-        "value": "Hardwood floors throughout main living areas"
+        "value": "Hardwood floors throughout main living areas", 
+        "icon": "layers"
       },
       {
         "key": "Central Air Conditioning",
-        "value": "Yes"
+        "value": "Yes", 
+        "icon": "ac_unit"
       },
       {
         "key": "Heating",
-        "value": "Forced Air"
+        "value": "Forced Air", 
+        "icon": "hvac"
       },
       {
         "key": "HOA Fees",
-        "value": "$125/month"
+        "value": "$125/month", 
+        "icon": "roofing"
       }
     ]
   },
@@ -63,27 +69,33 @@ export const HOUSES = [
     "additional_details": [
       {
         "key": "Fireplace",
-        "value": "Electric"
+        "value": "Electric", 
+        "icon": "fireplace"
       },
       {
         "key": "Laundry",
-        "value": "In-unit laundry"
+        "value": "In-unit laundry", 
+        "icon": "local_laundry_service"
       },
       {
         "key": "Flooring",
-        "value": "Luxury vinyl plank flooring"
+        "value": "Luxury vinyl plank flooring", 
+        "icon": "layers"
       },
       {
         "key": "Central Air Conditioning",
-        "value": "Yes"
+        "value": "Yes", 
+         "icon": "ac_unit"
       },
       {
         "key": "Heating",
-        "value": "Central heating"
+        "value": "Central heating", 
+         "icon": "hvac"
       },
       {
         "key": "HOA Fees",
-        "value": "$200/month"
+        "value": "$200/month", 
+        "icon": "roofing"
       }
     ]
   },
@@ -108,15 +120,18 @@ export const HOUSES = [
     "additional_details": [
       {
         "key": "Fireplace",
-        "value": "Wood burning (in master suite)"
+        "value": "Wood burning (in master suite)",
+        "icon": "fireplace"
       },
       {
         "key": "Laundry",
-        "value": "Separate laundry room"
+        "value": "Separate laundry room",
+        "icon": "local_laundry_service"
       },
       {
         "key": "Flooring",
-        "value": "Hardwood and tile flooring throughout"
+        "value": "Hardwood and tile flooring throughout",
+        "icon": "layers"
       }
     ]
   },
@@ -140,27 +155,33 @@ export const HOUSES = [
     "additional_details": [
       {
         "key": "Fireplace",
-        "value": "Gas burning (in living room)"
+        "value": "Gas burning (in living room)",
+        "icon": "fireplace"
       },
       {
         "key": "Laundry",
-        "value": "Inside Laundry Room"
+        "value": "Inside Laundry Room",
+        "icon": "local_laundry_service"
       },
       {
         "key": "Flooring",
-        "value": "Hardwood floors on main level, carpet upstairs"
+        "value": "Hardwood floors on main level, carpet upstairs",
+        "icon": "layers"
       },
       {
         "key": "Central Air Conditioning",
-        "value": "Yes"
+        "value": "Yes",
+         "icon": "ac_unit"
       },
       {
         "key": "Heating",
-        "value": "Forced Air"
+        "value": "Forced Air",
+         "icon": "hvac"
       },
       {
         "key": "HOA Fees",
-        "value": "$150/month"
+        "value": "$150/month",
+        "icon": "roofing"
       }
     ]
   },
@@ -184,27 +205,33 @@ export const HOUSES = [
     "additional_details": [
       {
         "key": "Fireplace",
-        "value": "Wood burning (in living room)"
+        "value": "Wood burning (in living room)",
+        "icon": "fireplace"
       },
       {
         "key": "Laundry",
-        "value": "Hookups in basement"
+        "value": "Hookups in basement",
+        "icon": "local_laundry_service"
       },
       {
         "key": "Flooring",
-        "value": "Hardwood floors throughout main level, carpet in basement"
+        "value": "Hardwood floors throughout main level, carpet in basement",
+        "icon": "layers"
       },
       {
         "key": "Central Air Conditioning",
-        "value": "No"
+        "value": "No",
+         "icon": "ac_unit"
       },
       {
         "key": "Heating",
-        "value": "Forced air furnace"
+        "value": "Forced air furnace",
+         "icon": "hvac"
       },
       {
         "key": "HOA Fees",
-        "value": "N/A"
+        "value": "N/A",
+        "icon": "roofing"
       }
     ]
   },
@@ -229,27 +256,33 @@ export const HOUSES = [
     "additional_details": [
       {
         "key": "Fireplace",
-        "value": "Gas burning (in living room)"
+        "value": "Gas burning (in living room)",
+        "icon": "fireplace"
       },
       {
         "key": "Laundry",
-        "value": "Comes with Dryer and Washer"
+        "value": "Comes with Dryer and Washer",
+        "icon": "local_laundry_service"
       },
       {
         "key": "Flooring",
-        "value": "Carpet in bedroom, tile in kitchen and bathrooms"
+        "value": "Carpet in bedroom, tile in kitchen and bathrooms",
+        "icon": "layers"
       },
       {
         "key": "Central Air Conditioning",
-        "value": "Yes"
+        "value": "Yes",
+         "icon": "ac_unit"
       },
       {
         "key": "Heating",
-        "value": "Forced air furnace"
+        "value": "Forced air furnace",
+         "icon": "hvac"
       },
       {
         "key": "HOA Fees",
-        "value": "$50 a month"
+        "value": "$50 a month",
+        "icon": "roofing"
       }
     ]
   }

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ComponentFactoryResolver, Input, OnInit, Output } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { DataSharingService } from 'src/app/service/data-sharing.service';
 
 @Component({
   selector: 'app-nav',
@@ -6,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  isUserLoggedIn!: boolean;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private dataSharingService: DataSharingService) { 
+    this.dataSharingService.isUserLoggedIn.subscribe(value => {
+      this.isUserLoggedIn = value;
+    })
   }
 
+  ngOnInit(): void {
+    
+  }
+
+
+  logout(): void {
+    localStorage.clear();
+    location.reload();
+  }
 }

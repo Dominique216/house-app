@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { HOUSES } from 'src/app/fake-houses';
-import { House } from 'src/app/House';
+import { HOUSES } from 'src/app/data/fake-houses';
+import { House } from 'src/app/interfaces/House';
 import { customFunctions } from '../../functions'
 
 @Component({

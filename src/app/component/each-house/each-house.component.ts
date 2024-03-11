@@ -1,7 +1,7 @@
 import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { House } from '../../House';
+import { House } from '../../interfaces/House';
 import { customFunctions } from '../../functions'
 
 @Component({

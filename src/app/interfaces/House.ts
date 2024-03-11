@@ -9,5 +9,5 @@ export interface House {
     bathrooms: number,
     description: string,
     highlights: string[],
-    additional_details: {key: string, value: string}[]
+    additional_details: {key: string, value: string, icon: string}[]
 }

@@ -2,5 +2,10 @@
     <div class="nav-title">
         HousesForSell
     </div>
+    <div>
         <a class="nav-link" routerLink="/">Home</a>
+        <div *ngIf="isUserLoggedIn; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock><a class="nav-link" routerLink="/" (click)="logout()">Logout</a></ng-template> 
+        <ng-template #elseBlock><a #elseBlock class="nav-link" routerLink="/login">Login</a></ng-template>
+    </div>       
 </div>
